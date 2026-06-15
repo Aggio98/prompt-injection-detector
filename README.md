@@ -17,6 +17,7 @@ Most AI apps ship without any prompt injection detection. This tool gives develo
 | `system_prompt_exfiltration` | Attempts to reveal or leak the system prompt |
 | `indirect_injection` | Malicious instructions embedded in documents or data |
 | `tool_abuse` | Attempts to trigger unintended function or API calls |
+| `goal_hijacking` | Attempts to subtly redirect the AI away toward a different goal|
 
 Each finding includes a **confidence level** (low / medium / high), an explanation, and a mitigation recommendation.
 
@@ -26,7 +27,7 @@ Each finding includes a **confidence level** (low / medium / high), an explanati
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/prompt-injection-detector
+git clone https://github.com/Aggio98/prompt-injection-detector
 cd prompt-injection-detector
 
 # 2. Install dependencies
